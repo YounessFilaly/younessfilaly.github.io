@@ -196,37 +196,40 @@
           <!-- ====== Contact Form ====== -->
           <div class="row">
             <div class="contact-form padd-15">
+              <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="9625eb36-7fcf-4cdf-8db2-3692795eae4b">
               <div class="row">
                 <div class="form-item col-6 padd-15">
                   <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Name">
+                    <input type="text" class="form-control" name="name" placeholder="Name">
                   </div>
                 </div>
                 <div class="form-item col-6 padd-15">
                   <div class="form-group">
-                    <input type="email" class="form-control" placeholder="Email">
+                    <input type="email" class="form-control" name="email" placeholder="Email">
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="form-item col-12 padd-15">
                   <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Subject">
+                    <input type="text" class="form-control" name="subject" placeholder="Subject">
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="form-item col-12 padd-15">
                   <div class="form-group">
-                    <textarea name="" class="form-control" id=""  placeholder="Message"></textarea>
+                    <textarea  class="form-control" id=""  name="message" placeholder="Message"></textarea>
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="form-item col-12 padd-15">
-                  <button type="submit" class="btn">Send Message</button>
+                  <button type="submit" class="btn" >Send Message</button>
                 </div>
               </div>
+            </form>
             </div>
           </div>
         </div>
